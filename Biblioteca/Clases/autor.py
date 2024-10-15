@@ -12,7 +12,7 @@ class Autor(paises):
         self.biografia_autor = biografia_autor
         self.foto_autor = foto_autor
 
-        def fechas(fecha):
-            fecha_datetime = datetime.strptime(fecha, '%d/%m/%Y')
-            fecha_string = fecha_datetime.strftime('%Y/%m/%d')
-            return fecha_string
+    def fechas(fecha):
+        fecha_datetime = datetime.strptime(fecha, '%d/%m/%Y')
+        fecha_string = fecha_datetime.strftime('%Y/%m/%d')
+        return fecha_string
